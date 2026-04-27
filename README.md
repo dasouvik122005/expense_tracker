@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Expense Tracker
 
-# Run and deploy your AI Studio app
+A modern, dynamic expense tracking application built with React, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
+**Check out the live application here:** [https://expansetracker1210.netlify.app/](https://expansetracker1210.netlify.app/)
 
-View your app in AI Studio: https://ai.studio/apps/d637bd19-7d55-461f-91e8-c9720e94a09e
+## ✨ Features
+- Track your daily expenses and income effortlessly.
+- View detailed breakdowns and insights using charts (Powered by Recharts).
+- Modern, responsive, and beautiful user interface.
+- Smooth animations and transitions.
+- Cross-platform support (Includes Capacitor for Android).
+- AI-powered features using Gemini AI.
 
-## Run Locally
+## 🛠 Tech Stack
+- **Frontend Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS 4
+- **Icons:** Lucide React
+- **Animations:** Motion
+- **Mobile Support:** Capacitor
+- **Language:** TypeScript
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
 
+### Prerequisites
+- Node.js
+- npm or yarn
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation & Setup
+
+1. **Clone the repository:**
+   (If you haven't already downloaded the project files)
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   If you have an `.env.example` file, copy it to `.env.local` and add your required keys (e.g., `GEMINI_API_KEY`).
+   ```bash
+   cp .env.example .env.local
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The app should now be running locally.
+
+## 📦 Build for Production
+To build the application for production deployment:
+```bash
+npm run build
+```
+
+## 📱 Android Development
+To run or build the Android version using Capacitor:
+```bash
+npx cap sync android
+npx cap open android
+```
