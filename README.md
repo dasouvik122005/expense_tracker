@@ -62,3 +62,57 @@ To run or build the Android version using Capacitor:
 npx cap sync android
 npx cap open android
 ```
+
+## 🔮 Future Plans
+
+- 📊 Advanced Analytics Dashboard  
+  Add deeper financial insights like spending trends, category-wise predictions, and monthly comparisons with AI-driven recommendations.
+
+- 🤖 Smarter AI Integration (Gemini Upgrade)  
+  Enhance AI capabilities with:
+  - Automatic expense categorization  
+  - Personalized saving suggestions  
+  - Natural language queries (e.g., "How much did I spend on food last month?")
+
+- 🔔 Smart Notifications & Reminders  
+  Implement alerts for:
+  - Budget limits  
+  - Unusual spending patterns  
+  - Bill payment reminders  
+
+- 👥 User Authentication & Cloud Sync  
+  Add secure login (Google/email) and cloud storage to sync data across multiple devices.
+
+- 📱 Full Mobile Optimization  
+  Improve mobile experience by:
+  - Converting into a Progressive Web App (PWA)  
+  - Exploring dedicated mobile app development (React Native / Flutter)
+
+- 💰 Budget Planning System  
+  Allow users to:
+  - Set monthly budgets  
+  - Track remaining balance  
+  - Get real-time overspending alerts  
+
+- 📂 Export & Reports  
+  Enable downloading reports in:
+  - PDF  
+  - CSV / Excel  
+
+- 🌐 Multi-Currency & Localization  
+  Add support for:
+  - Multiple currencies  
+  - Regional formats  
+  - Multiple languages  
+
+- 🔐 Data Security Enhancements  
+  Improve security with:
+  - Encrypted data storage  
+  - Secure API handling  
+  - Better environment variable management  
+
+- ⚡ Performance Optimization  
+  Enhance performance through:
+  - Lazy loading components  
+  - Optimized chart rendering  
+  - Efficient state management  
